@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+	root 'hellos#index'
+	
   get 'installing/ruby'
 
   get 'installing/for'
